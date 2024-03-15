@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const LargMenuItems = () => {
   return (
@@ -9,7 +10,7 @@ const LargMenuItems = () => {
       </div>
       <div className="w-[8vw] rounded-xl pl-[.5vw] bg-[#F2F2F2] mb-[1vh] cursor-pointer flex items-center">
         <i className="ri-home-4-fill text-[1.4vw]"></i>
-        <h3 className="ml-[1.5vw] text-[.9vw] font-[500]">Home</h3>
+        <Link to="/"><h3 className="ml-[1.5vw] text-[.9vw] font-[500]">Home</h3></Link>
       </div>
       <div className="w-[8vw] rounded-xl pl-[.5vw] mb-[1vh] hover:bg-[#F2F2F2] cursor-pointer flex items-center">
         <i className="ri-movie-2-line text-[1.1vw]"></i>

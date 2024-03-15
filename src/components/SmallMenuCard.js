@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SmallMenuCard = () => {
   return (
     <div className="w-fit flex flex-col gap-6 cursor-pointer">
       <div className="flex flex-col items-center">
-        <i className="ri-home-smile-line text-[1.4vw] font-[100]"></i>
-        <p className="mt-[-5px] text-[.6vw]">Home</p>
+        <Link to="/">
+          <i className="ri-home-smile-line text-[1.4vw] font-[100]"></i>
+          <p className="mt-[-5px] text-[.6vw]">Home</p>
+        </Link>
       </div>
       <div className="flex flex-col items-center">
         <i className="ri-movie-2-line text-[1.4vw] font-[100]"></i>

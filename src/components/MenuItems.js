@@ -8,7 +8,7 @@ const MenuItems = () => {
 
   if(!isMenuOpen) return <div className='mt-20 pl-1'><SmallMenuCard /></div>; //Early Return
   return (
-    <div className='h-[91.5vh] mt-20 overflow-hidden hover:overflow-y-auto'>
+    <div className='h-[91.5vh] mt-20 overflow-hidden hover:overflow-y-auto bg-white'>
       <LargeMenuItems />
       <LargeMenuItems />
       <LargeMenuItems />
